@@ -17,7 +17,7 @@ axios.get("https://fizal.me/pokeapi/api/v2/name/groudon.json")
           resp.stats[5].base_stat,
           resp.stats[4].base_stat,
           resp.stats[3].base_stat,
-          resp.abilities[0].name
+          resp.abilities[0].ability.name
         
     )
     let div = document.querySelector('.card-title');

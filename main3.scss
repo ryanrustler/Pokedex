@@ -1,0 +1,25 @@
+body{
+  background: url("hoho.png");
+  background-size: cover;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: space-between; }
+
+
+.card{
+  margin-left: 300px;
+  margin-top: 400px;  
+
+}
+.card-img-top{
+
+  margin-top: 100px;
+  height:110%;
+  width:300px;
+}
+
+.card-text{
+
+}
