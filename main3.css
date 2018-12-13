@@ -12,7 +12,20 @@ body {
 
 .card-img-top {
   margin-top: 100px;
-  height: 110%;
+  height: 75%;
   width: 300px; }
+
+.card-text {
+  background-color: #D98324;
+  font-family: 'Kanit';
+  font-size: 25px; }
+
+.card-body {
+  background-color: #E3C567; }
+
+.card-title {
+  color: black;
+  font-family: 'Kanit';
+  font-size: 50px; }
 
 /*# sourceMappingURL=main3.css.map */
