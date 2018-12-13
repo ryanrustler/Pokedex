@@ -1,0 +1,30 @@
+body {
+  background-image: url("snorlax.jpg");
+  background-size: cover; }
+
+.container {
+  display: inline-flex;
+  justify-content: space-between; }
+
+.card-img-top {
+  margin-top: 100px;
+  height: 75%;
+  width: 300px; }
+
+.card {
+  margin-left: 350px;
+  margin-top: 200px; }
+
+.card-title {
+  color: black;
+  font-family: 'Kanit';
+  font-size: 40px; }
+
+.card-text {
+  font-size: 25px;
+  font-family: 'Kanit'; }
+
+.card-body {
+  background-color: #044389; }
+
+/*# sourceMappingURL=main4.css.map */
