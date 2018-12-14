@@ -1,7 +1,34 @@
-.carousel {
-  height: 50%;
-  width: 50%; }
-  .carousel img {
-    height: 500px; }
+body {
+  background-color: black; }
+
+#check {
+  height: 90%;
+  margin-top: 20%;
+  border-radius: 50%;
+  background-color: #444140; }
+
+#pokemain {
+  position: absolute;
+  padding: 2000px; }
+
+.topnav {
+  background-color: #444140;
+  height: 50px; }
+
+.active {
+  margin-left: 50px;
+  font-size: 30px; }
+
+a:hover {
+  opacity: 0.5; 
+}
+
+#groudon1, #HO-OH, #snorlax{
+  display: none;
+
+}
+
+
+
 
 /*# sourceMappingURL=pokemon.css.map */

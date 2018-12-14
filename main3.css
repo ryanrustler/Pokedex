@@ -8,7 +8,7 @@ body {
 
 .card {
   margin-left: 300px;
-  margin-bottom: 600px; }
+  margin-top: 250px; }
 
 .card-img-top {
   margin-top: 100px;
@@ -27,5 +27,16 @@ body {
   color: black;
   font-family: 'Kanit';
   font-size: 50px; }
+
+.topnav {
+  background-color: #E3C567;
+  height: 50px; }
+
+.active {
+  margin-left: 50px;
+  font-size: 30px; }
+
+li {
+  list-style: none; }
 
 /*# sourceMappingURL=main3.css.map */
