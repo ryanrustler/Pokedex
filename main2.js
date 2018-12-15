@@ -31,7 +31,7 @@ axios.get("https://fizal.me/pokeapi/api/v2/id/250.json")
 
     let div = document.querySelector('.card-title');
     div.innerHTML = ho_oh.name;
-    // console.log(ho_ho);
+   
 
     let hp = document.querySelector('.card-text');
     hp.innerHTML += `<li> HP: ${ho_oh.Hp} </li>`
