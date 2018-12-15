@@ -19,7 +19,7 @@ let pokeball = document.querySelector('#pokeball1');
   pokeball.addEventListener('click', event =>{
     event.preventDefault();
     let pokemon1 = document.querySelector('#groudon1');{
-      pokemon1.style.display = "inline-block";
+      pokemon1.style.opacity = 1;
     }
   } )    
 
@@ -27,7 +27,7 @@ let pokeball = document.querySelector('#pokeball1');
   pokeball2.addEventListener('click', event =>{
     event.preventDefault();
     let pokemon2 = document.querySelector('#HO-OH');{
-      pokemon2.style.display = "inline-block";
+      pokemon2.style.opacity = 1;;
     }
   } )    
 
@@ -35,6 +35,6 @@ let pokeball = document.querySelector('#pokeball1');
   pokeball3.addEventListener('click', event =>{
     event.preventDefault();
     let pokemon3 = document.querySelector('#snorlax');{
-      pokemon3.style.display = "inline-block";
+      pokemon3.style.opacity= 1;
     }
   } )    
