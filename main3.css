@@ -17,7 +17,7 @@ body {
 
 .card-text {
   background-color: #D98324;
-  font-family: 'Kanit';
+  font-family: "Kanit";
   font-size: 25px; }
 
 .card-body {
@@ -25,7 +25,7 @@ body {
 
 .card-title {
   color: black;
-  font-family: 'Kanit';
+  font-family: "Kanit";
   font-size: 50px; }
 
 .topnav {

@@ -1,3 +1,8 @@
+$pixels_300: 300px;
+$font_family: 'Kanit';
+$color:#E3C567;
+$pixels_50: 50px;
+
 body{
   background: url("hoho.png");
   background-size: cover;
@@ -9,7 +14,7 @@ body{
 
 
 .card{
-  margin-left: 300px;
+  margin-left: $pixels_300;
   margin-top: 250px;  
 
 }
@@ -17,36 +22,36 @@ body{
 
   margin-top: 100px;
   height:75%;
-  width:300px;
+  width:$pixels_300;
 }
 
 .card-text{
 
 background-color:#D98324;
-font-family: 'Kanit';
+font-family:$font_family;
 font-size:25px;
 }
 .card-body{
 
-  background-color: #E3C567;
+  background-color: $color;
 
 }
 
 .card-title{
 
   color: black;
-  font-family: 'Kanit';
-  font-size:50px;
+  font-family: $font_family;
+  font-size:$pixels_50;
   }
 
   .topnav{
-    background-color:#E3C567;
-    height:50px;
+    background-color:$color;
+    height:$pixels_50;
   }
 
   .active{
 
-    margin-left:50px;
+    margin-left:$pixels_50;
     font-size: 30px;
   }
   

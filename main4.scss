@@ -1,3 +1,6 @@
+$black: black;
+$font_family: 'Kanit';
+
 body{
 background-image: url("snorlax.jpg");
 background-size:cover;
@@ -25,15 +28,15 @@ background-size:cover;
 }
 .card-title{
 
-  color: black;
-  font-family: 'Kanit';
+  color: $black;
+  font-family: $font_family;
   font-size:40px;
   }
   
   .card-text{
 
     font-size: 25px;
-    font-family: 'Kanit';
+    font-family: $font_family;
   }
   .card-body{
 
@@ -41,7 +44,7 @@ background-size:cover;
   }
 
   .topnav{
-    background-color: black;
+    background-color:$black;
     height:50px;
   }
 

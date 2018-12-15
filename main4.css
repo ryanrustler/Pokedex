@@ -17,12 +17,12 @@ body {
 
 .card-title {
   color: black;
-  font-family: 'Kanit';
+  font-family: "Kanit";
   font-size: 40px; }
 
 .card-text {
   font-size: 25px;
-  font-family: 'Kanit'; }
+  font-family: "Kanit"; }
 
 .card-body {
   background-color: #044389; }
