@@ -1,12 +1,4 @@
-class Snorlax{
-  constructor(name, Hp, attack, defense, abilitiee){
-    this.name = name;
-    this.Hp = Hp;
-    this.attack = attack;
-    this.defense = defense;
-    this.abilitiee= abilitiee;  
-}
-}
+
 
 let abilitiee = []
 
@@ -15,7 +7,7 @@ axios.get("https://fizal.me/pokeapi/api/v2/name/snorlax.json")
 .then(response => {
 
   let resp = response.data
-  let snorlax = new Snorlax(
+  let snorlax = new Pokemon(
 
     resp.forms[0].name,
       resp.stats[5].base_stat,
@@ -32,7 +24,6 @@ axios.get("https://fizal.me/pokeapi/api/v2/name/snorlax.json")
   
   let div = document.querySelector('.card-title');
     div.innerHTML = snorlax.name;
-    // console.log(ho_ho);
 
     let hp = document.querySelector('.card-text');
     hp.innerHTML += `<li> HP: ${snorlax.Hp} </li>`

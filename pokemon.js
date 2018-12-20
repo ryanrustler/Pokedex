@@ -6,12 +6,12 @@ groudon.addEventListener('click', event =>{
 
 let ho_oh = document.querySelector('#HO-OH');
   ho_oh.addEventListener('click', event => {
-    ho_oh.href ="file:///Users/ryanrob0930icloud.com/Desktop/mystuff/Pokedex/index2.html";
+    ho_oh.href ="file:///Users/ryanrob0930icloud.com/Desktop/mystuff/Pokedex/hoho.html";
   })
 
   let snorlax = document.querySelector('#snorlax');
     snorlax.addEventListener('click', event => {
-      snorlax.href ="file:///Users/ryanrob0930icloud.com/Desktop/mystuff/Pokedex/index3.html";
+      snorlax.href ="file:///Users/ryanrob0930icloud.com/Desktop/mystuff/Pokedex/snorlax.html";
     }) 
 
 

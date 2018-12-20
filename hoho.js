@@ -1,20 +1,11 @@
-class Ho_oh{
-  constructor(name, Hp, attack, defense, abilitiee){
-    this.name = name;
-    this.Hp = Hp;
-    this.attack = attack;
-    this.defense = defense;
-    this.abilitiee= abilitiee;
 
-  }
-}
 let abilitiee = []
 
 axios.get("https://fizal.me/pokeapi/api/v2/id/250.json")
 .then(response => {
 
     let resp = response.data;
-    let ho_oh = new Ho_oh(
+    let ho_oh = new Pokemon(
 
       resp.forms[0].name,
       resp.stats[5].base_stat,
