@@ -7,32 +7,31 @@ $height_and_width: 500px;
 body{
   background-image:url("groudon.jpg");
   background-size: cover;
-  
     
-}
+  }
+
 .container{
-  display:inline-flex;
+    display:inline-flex;
     justify-content: space-between;
 }
 
 .col-sms{
-margin-top:200px;
+  margin-top:200px;
   height:$height_and_width;
   width:$height_and_width;
 
-  
 }
 .card{
-  
-margin-left: 400px;
-margin-top:300px;
+  margin-left: 400px;
+  margin-top:300px;
+
 }
 
 .card-title{
 
-color: white;
-font-family: $font; 
-font-size:$pixel;
+  color: white;
+  font-family: $font; 
+  font-size:$pixel;
 }
 .card-text{
 
