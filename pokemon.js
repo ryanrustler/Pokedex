@@ -1,17 +1,17 @@
 let groudon = document.querySelector('#groudon1');
 
 groudon.addEventListener('click', event =>{
-  groudon.href= "file:///Users/ryanrob0930icloud.com/Desktop/mystuff/Pokedex/groudon.html";
+  groudon.href= "groudon.html";
 })
 
 let ho_oh = document.querySelector('#HO-OH');
   ho_oh.addEventListener('click', event => {
-    ho_oh.href ="file:///Users/ryanrob0930icloud.com/Desktop/mystuff/Pokedex/hoho.html";
+    ho_oh.href ="hoho.html";
   })
 
   let snorlax = document.querySelector('#snorlax');
     snorlax.addEventListener('click', event => {
-      snorlax.href ="file:///Users/ryanrob0930icloud.com/Desktop/mystuff/Pokedex/snorlax.html";
+      snorlax.href ="snorlax.html";
     }) 
     
 
