@@ -1,17 +1,9 @@
-class  Pokemon1{
-  constructor(name, Hp, attack, defense, abilitiee){
-    this.name = name;
-    this.Hp = Hp;
-    this.attack = attack;
-    this.defense = defense;
-    this.abilitiee= abilitiee;
-  }
-}
+
 axios.get("https://fizal.me/pokeapi/api/v2/name/groudon.json")
   .then(response => { 
 
     let resp = response.data;
-    let pokemon1 = new Pokemon1(
+    let pokemon1 = new Pokemon(
 
           resp.forms[0].name,
           resp.stats[5].base_stat,
@@ -38,6 +30,8 @@ axios.get("https://fizal.me/pokeapi/api/v2/name/groudon.json")
 
 
   });
+
+
 
 
  

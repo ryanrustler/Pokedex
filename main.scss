@@ -1,54 +1,64 @@
+$color: black;
+$font: 'Kanit';
+$pixel: 50px;
+$height_and_width: 500px;
+
+
 body{
   background-image:url("groudon.jpg");
   background-size: cover;
-}
+    
+  }
+
 .container{
-  display:inline-flex;
+    display:inline-flex;
     justify-content: space-between;
 }
 
 .col-sms{
-margin-top:200px;
-  height:500px;
-  width:500px;
+  margin-top:200px;
+  height:$height_and_width;
+  width:$height_and_width;
+
 }
 .card{
-  
-margin-left: 400px;
-margin-top:300px;
+  margin-left: 400px;
+  margin-top:300px;
+
 }
 
 .card-title{
 
-color: white;
-font-family: 'Kanit';
-font-size:50px;
+  color: white;
+  font-family: $font; 
+  font-size:$pixel;
 }
 .card-text{
 
   background-color:#A40606;
-  font-family: 'Kanit';
+  font-family: $font;
   font-size:25px;
 }
 
 .card-body{
 
-  background-color: black;
+  background-color:$color;
 }
 
 .master{
 
   height:100px;
 }
+
 .topnav{
-background-color: black;
-height:50px;
+background-color: $color;
+height:$pixel;
 
 }
 
 .active{
 
-  margin-left:50px;
+  margin-left:$pixel;
   font-size: 30px;
 }
 
