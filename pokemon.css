@@ -24,5 +24,14 @@ body {
 
 a:hover {
   opacity: 0.5; }
+  
+  
+  h1{
+
+    margin-left:50px;
+    font-size: 30px;
+    float:right;
+    color:red;
+  }
 
 /*# sourceMappingURL=pokemon.css.map */
