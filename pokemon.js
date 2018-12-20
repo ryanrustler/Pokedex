@@ -27,7 +27,7 @@ let pokeball = document.querySelector('#pokeball1');
   pokeball2.addEventListener('click', event =>{
     event.preventDefault();
     let pokemon2 = document.querySelector('#HO-OH');
-      pokemon2.style.opacity = 1;;
+      pokemon2.style.opacity = 1;
     
   } )    
 
